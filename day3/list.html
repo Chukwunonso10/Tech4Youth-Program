@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ordered and unordered list</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 2px solid black
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th {
+        text-align: justify;
+    }
+</style>
+
+<body>
+    <ol>
+        <li>rice
+            <ol type="a" start="3">
+                <li>dog</li>
+                <li>german</li>
+                <li>rotweiler</li>
+
+            </ol>
+        </li>
+        <li>beans</li>
+        <li>tomatoes</li>
+        <li>crayfish</li>
+    </ol>
+
+
+    <ul>
+        <li>blue</li>
+        <li>yellow</li>
+        <li>black</li>
+    </ul>
+
+    <!-- descriptions list syntax -->
+
+    <dl>
+        <dt>vehicles</dt>
+        <dd>game over</dd>
+        <dd>game over</dd>
+        <dd>game over</dd>
+    </dl>
+
+    <p>Table syntax</p>
+
+    <table>
+        <caption style="font-size: large; font-weight: bold; color: blue; padding: 10px; ">Table Data</caption>
+        <tr>
+            <th colspan="2">name</th>
+            <th>age</th>
+            <th>sex</th>
+            <th>class</th>
+        </tr>
+        <tr>
+            <td>chukwu</td>
+            <td>45</td>
+            <td>male</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>kingley</td>
+            <td>45</td>
+            <td>male</td>
+            <td>E</td>
+        </tr>
+    </table>
+
+    <!-- form -->
+    <form novalidate autocomplete="on">
+        <p>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required>
+
+        </p>
+        <p>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <input type="checkbox">
+        <span>do you agree</span>
+
+        <input type="radio">
+
+        <input type="range">
+
+        <input type="color">
+
+        <input type="submit">
+
+        <input type="search">
+
+        <input type="date" min="2026-09-23" max="2026-09-31">
+
+        <input type="datetime-local"> <br>
+
+        <input type="file" multiple>
+
+        <!-- form elements -->
+        <textarea rows="30" cols="35" style="resize: none;"></textarea>
+
+        <p>
+            <label for="">select a country</label>
+
+            <select name="" id="">
+                <option selected disabled value="">select any country of your choice
+                </option>
+                <option value="">Zambia</option>
+                <option value="">Canada</option>
+                <option value="">Lagos</option>
+            </select>
+        </p>
+
+        <button type="submit">submit</button>
+
+        <fieldset>
+            <legend>personal information</legend>
+            <input maxlength="5" type="text" size="100%" required>
+            <label for="">NAME</label>
+
+            <legend>OHTER INFORMATION</legend>
+            <input maxlength="5" size="100%" type="text" placeholder="gender" value="gender" required>
+
+            <input maxlength="5" size="100%" type="text" placeholder="location" value="123 street..." readonly disabled required>
+        </fieldset>
+
+        <!-- form attribute -->
+        <!--1. Novalidate -->
+        <!-- autocomplete -->
+        <!-- method  -->
+
+        <span>kelvin</span>
+        <span>okereke</span>
+
+    </form>
+
+</body>gender
+
+</html>
