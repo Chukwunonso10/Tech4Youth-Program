@@ -1,4 +1,4 @@
-/* .loremdiv{
+/* .loremdiv{url(style.css)
 background-color: brown;
 color: blue;
 } */
@@ -28,7 +28,6 @@ h4 {
     margin-bottom: 50px;
 }
 
-
 .peace {
     background-color: blue;
     color: black;
@@ -44,7 +43,7 @@ h4 {
 
 }
 
-.work{
+.work {
 
     background-color: bisque;
     margin: 60px;
@@ -56,16 +55,16 @@ h4 {
     border-right: 10px double orchid;
     border-bottom: 12px groove brown; */
 
-/* border-width: 10px;
+    /* border-width: 10px;
 border-style: dotted;
 border-color: black; */
 
-padding: 20px 100px 500px 5px;
+    padding: 20px 100px 500px 5px;
 
 }
 
 /* container to the center */
-.job{
+.job {
 
     background-color: teal;
     height: 200px;
@@ -76,9 +75,43 @@ padding: 20px 100px 500px 5px;
 
 }
 
-.i{
+.i {
     background-color: blue;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.hello {
+    background-color: brown;
+    border: 3px solid black;
+    outline: 10px solid greenyellow;
+    outline-offset: 20px;
+}
+
+.div1 {
+    background-color: rgb(255, 0, 0);
+    background-color: hsla(0, 90%, 90%);
+    height: 300px;
+}
+
+.div2 {
+    background-image: url("../adorable.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    color: white;
+    padding: 12px;
+}
+
+.div3 {
+    /* background-color: rgb(255, 0, 0); */
+    background: linear-gradient(to rig rgb(0, 128, 70), rgb(59, 41, 178));
+    background: linear-gradient(blue, );
+    /* background-color: hsla(0, 90%, 90% ); */
+    /* height: 300px; */
+}
+
+.div4 {
+    background: linear-gradient(to rig rgb(0, 128, 70), rgb(59, 41, 178));
 }

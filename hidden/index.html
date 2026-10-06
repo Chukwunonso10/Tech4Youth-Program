@@ -58,65 +58,70 @@
             text-decoration: none;
         }
 
-        main {
+        .hero-container{
+           width: 90%;
+        }
+
+        .img{
+          max-width: 50%; 
+          border-radius: 48px;
+          vertical-align: middle;
+          display: inline;
+          width: 400px
+            
+        }
+
+        main{
             width: 100%;
-            max-width: 80%;
         }
-
-        main img {
-            width: 50%;
-            vertical-align: middle;
-
-        }
-
-        .hero div {
+        .text-container {
             float: right;
             display: inline;
-            width: 40%;
-            margin: 0 auto;
+            max-width: 45%;
+            margin: 18% auto;
             vertical-align: middle;
-            padding-top: 30%;
-            text-transform: capitalize;
-
-        }
-
-        .hero div p {
-            color: red;
-            font-size: 18px;
-
-
-        }
-
-        .hero div h2 {
-            font-size: 24px;
-            padding: 10px 0;
-            font-weight: 900;
-
-        }
-
-        .hero div a {
-            border: 1px solid #6b6a6a;
-            padding: 0 4px;
-            cursor: pointer;
-        }
-
-        .container {
-            margin: 20px 0;
-            background-color: aquamarine;
-            width: 100%;
-        }
-
-
-
-        h4 {
-            text-align: center;
-            text-transform: capitalize;
-            font-size: 24px;
-            padding-top: 20px;
-
-        }
-
         
+            text-transform: capitalize;
+            text-align: center;
+
+        }
+
+        .text-container p{
+            padding-bottom: 10px;
+            line-height: 24px;
+        }
+
+        .text-container h2{
+            font-size: 50px;
+            font-style: oblique;
+            padding-bottom: 10px;
+        }
+        .text-container a{
+            color: blue
+        }
+
+
+       h4{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+        text-transform: capitalize;
+       }
+
+
+       .lorem-container{
+        max-width: 100%;
+        
+       }
+
+       .lorem{
+        
+       }
+       .details{
+        float: right;
+        text-transform: capitalize;
+       }
+       
     </style>
 </head>
 
@@ -139,9 +144,9 @@
         <span>self contain</span>
     </header>
     <main>
-        <div class="hero">
-            <img src="../adorable.png" alt="">
-            <div>
+        <div class="hero-container">
+            <img src="../adorable.png" alt="" class="img">
+            <div class="text-container">
                 <p>Hi i&apos;m chukwunonso kuzue,</p>
                 <h2>i am a software engineer</h2>
                 <a download="">download Cv</a>
@@ -150,11 +155,13 @@
 
         <h4>personal details</h4>
 
-        <div>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dele.
+        <div class="lorem-container">
+            <span class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dele. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, asperiores. Dolores, aliquam repellendus ullam omnis ex impedit rerum tenetur itaque? Illo voluptatem quo omnis fuga aliquam, nisi voluptates blanditiis officia.
+            Minus unde eveniet odio voluptatem, natus enim assumenda molestiae, pariatur optio dolores id eaque similique ipsum dolorem ad, obcaecati quo quos culpa libero maiores iste dicta tempore incidunt. Iusto, repellat?
+            Esse reprehenderit aperiam non nam similique in, velit neque nisi ea ullam inventore. Doloribus illo, provident porro tempore numquam debitis quaerat impedit temporibus a rerum suscipit harum dolore rem velit!
             </span>
 
-            <div>
+            <div class="details">
                 <p>date of Birth: 20/10/1994</p>
                 <p>spoken language: english </p>
                 <p>Nationality: Nigerian</p>
@@ -166,9 +173,6 @@
             <a href="#"><span>Facebook</span></a>
             <a href="#"><span>Twitter </span></a>
             <a href="#"><span>Instagram</span></a>
-
-
-
 
         </div>
 

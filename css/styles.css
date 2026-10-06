@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sect1{
+
+font-family: "Libre Caslon Condensed", serif;
+}
+
+/* .d{
+    padding: 46px;
+}
+::marker{
+ color: yellow;
+ font-size: 30px;
+}
+
+::selection{
+    background-color: brown;
+} */
+
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    display: block;
+}
+
+.ho {
+    display: none;
+}
+
+.ho a{
+    display: inline-block;
+    
+}
+
+ul li:hover > .ho{
+    display: block;
+}
+
+ul a:hover{
+    color: blue;
+    background-color: white;
+    transition: all 0.4s ease;
+    
+}
+
+
+.gradient{
+height: 500px;
+background-image: url("../adorable.png");
+background-repeat: no-repeat;
+background-size: contain;
+margin: 50px 10px;
+background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 60%, blue );
+}

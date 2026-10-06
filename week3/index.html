@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* first: go to dafont on google. download the font of your choice. extract the font and put it inside your project.
+        on css: use the " @font-face" and add font-family and src of that font. the url should be the one ending with .ttf or otf. then target the element you want to add the font-to and apply it on font-family */
+        
+        /* @font-face {
+            font-family: "Mistical Spring";
+            src: url("fonts/Mistical\ Spring\ DEMO\ VERSION.ttf");
+        } */
+
+
+
+
+        body {
+            font-family: "Poppins", sans-serif;
+            position: relative;
+        }
+
+        /* working with font-awesome
+        1. copy the cdn link from  fontawesome library and add the link in your head :target
+        2 then go to fontawesome.com and choose the graphics you want. they are rendered as vectors so you can style them as text. */
+
+        /* .div-container {
+            
+            border: 2px solid;
+        } */
+
+        .box1 {
+            background-color: red;
+            color: white;
+            font-size: 30px;
+            width: 300px;
+            height: 300px;
+            
+            line-height: 300px;
+            text-align: center;
+            position: relative;
+            top: 10px;
+            right: 4px;
+        }
+
+        .box2 {
+            background-color: rgba(92, 68, 68, 0.884);
+            color: white;
+            font-size: 30px;
+            width: 300px;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+            position: absolute;
+            top: 0px;
+            right: 5px;
+        }
+        .box3 {
+            background-color: rgba(52, 8, 128, 0.884);
+            color: white;
+            font-size: 30px;
+            width: 300px;
+            height: 300px;
+
+            line-height: 300px;
+            text-align: center;
+            position: fixed;
+            top: 0px;
+            right: 0;
+            
+        }
+        .box4 {
+            background-color: rgba(52, 8, 128, 0.884);
+            color: white;
+            font-size: 30px;
+            width: 300px;
+            height: 300px;
+
+            line-height: 300px;
+            text-align: center;
+            position: sticky;
+            top: 0px;
+            right: 0;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Testing our daFonts</h1>
+    <h2><i class="fa-solid fa-heart-crack"></i></h2>
+    <i class="fa-solid fa-paint-roller"></i>
+
+    <!-- ionic icons -->
+    copy the script >> pick any icons of your choice
+    fonticons
+    dafonts
+
+    <p class="box-shadow">this is a very long text. lorem</p>
+
+
+    <!-- block level element -->
+
+    <!-- css positioning -->
+    <!-- <div class="div-container"> -->
+    <div class="box1">relative</div>
+    <div class="box2">abosolut</div>
+    <div class="box3">fixed</div>
+    <div class="box4">sticky</div>
+    <!-- </div> -->
+
+    <!-- to use ionicons: google ionicicons on google.select >> usage >> installation >> copy the script and place it at the end of your body. you can change the "name" attribute to get desired icons. you can use the size attribute to increase the size or use css in px -->
+    <ion-icon name="heart" size="large"></ion-icon>
+    <ion-icon name="heart-outline"></ion-icon>
+    <ion-icon name="heart-sharp" size="large"></ion-icon>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nesciunt tenetur ipsa non, asperiores voluptates laborum. Fugit quo at laborum ea enim dolorem harum cum blanditiis voluptatem quod. Modi, ipsam.
+    Quisquam quae sit voluptas autem? Animi aliquam doloremque aspernatur debitis sed cumque maiores maxime temporibus, rerum quidem deleniti veniam nesciunt a tempora culpa aut impedit nulla odio voluptatum repellendus. Accusantium?
+    Est, ea accusantium necessitatibus cum, nisi eaque omnis labore natus cumque dolore dolorum accusamus ipsa excepturi odio asperiores tenetur impedit! Incidunt maxime at ab fuga tempore consequatur. Nesciunt, ad accusamus?
+    Veniam corrupti sed maxime numquam vitae dignissimos excepturi modi totam repellendus obcaecati. Fugit iure ducimus sed eos accusantium consectetur? Rem architecto itaque dignissimos asperiores nisi hic voluptates doloremque consequuntur aperiam.
+    Quae dolorem impedit expedita ipsum voluptatem unde ullam illum cum beatae alias sit, natus aspernatur non consequuntur quasi aliquid, tempora inventore optio tempore iure nisi voluptas. Quae ad assumenda consequuntur?
+    Sint illum, quasi illo iusto quibusdam hic explicabo reiciendis nihil nesciunt, nobis repudiandae magni? Eligendi, delectus illo. Totam maiores nihil eligendi ullam? Quasi sequi rerum nemo debitis minus quia doloremque.
+    Quam obcaecati et, culpa architecto in, sunt omnis laborum voluptates, amet repellat soluta esse excepturi explicabo quis id officiis expedita atque similique! Pariatur distinctio neque explicabo mollitia, fugit sint voluptas.
+    Veritatis explicabo omnis, molestiae ipsa illum similique facere neque ad unde quas, est sunt impedit eaque, nulla beatae reprehenderit! Amet, architecto obcaecati reiciendis totam molestiae nam. Voluptate nam tenetur voluptatum.
+    Molestiae pariatur maxime recusandae eum blanditiis quis hic quibusdam unde consequatur error. Dicta quaerat recusandae asperiores mollitia! Tempore, accusamus autem alias voluptas distinctio, consequatur aut quod inventore numquam dolores porro.
+    Maiores quisquam magnam delectus libero minima consectetur sapiente illo placeat, eligendi ipsum nobis sint sed, cumque laborum architecto velit repellendus atque porro repudiandae non. Quos animi neque perferendis fugit dolor.
+    Consequuntur numquam nulla aliquid eos perferendis, dolorum, labore velit, ad tempore quibusdam mollitia quae quo vitae! Voluptatibus, praesentium quas? Architecto iste eius suscipit beatae quod praesentium ullam obcaecati explicabo rem!
+    Blanditiis labore eveniet impedit sed fuga suscipit quis non omnis vitae, quos explicabo molestiae sunt quo nesciunt id assumenda ullam debitis in veniam ipsam laborum. Debitis, accusantium optio. Vero, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, illo repellendus sed quae, corporis delectus cumque quam, odio fuga quod est. Ipsum amet asperiores ea laborum suscipit minus quo minima?
+    Vel impedit voluptas illum. Optio tenetur delectus sit ullam ipsa? Eligendi aliquid ab ad odit porro, voluptatibus accusamus eius illum nostrum, beatae quia provident aspernatur cumque quas nihil, autem vel.
+    Adipisci fuga velit, nihil harum at aliquid maiores officia explicabo quibusdam ad quam amet error tempore. Eius maxime totam rem at sit quia voluptate sint consequatur veritatis. Dignissimos, accusamus dolores!
+    Dolorum magnam, nesciunt temporibus molestiae, in perferendis nam ea voluptatem animi, tempore quis repellat ratione dignissimos sapiente consequatur molestias? Quos similique itaque sed est nulla saepe! Ad temporibus rerum quae?
+    Nisi nobis voluptatibus tempora cum cupiditate ducimus iusto itaque incidunt aliquid, velit cumque, est natus autem beatae exercitationem aperiam. Molestias aspernatur commodi, amet explicabo excepturi nisi nemo laboriosam labore quasi?
+    Quae numquam eaque officiis accusantium doloribus distinctio dolor reprehenderit maxime. Quo libero maiores fugit quisquam ipsa deleniti beatae, recusandae aspernatur! Debitis, dolorum non sed doloremque id enim delectus nesciunt neque?
+    Debitis natus impedit ex perferendis libero accusantium ipsam odit illo ab! Atque cupiditate voluptatibus nulla ut molestiae ullam vero. Sint reiciendis natus error numquam magni doloribus inventore placeat, amet perspiciatis.
+    Dolores aut placeat iusto obcaecati ex id explicabo fuga ducimus eveniet asperiores consequatur quas corporis, labore, itaque sunt sed reprehenderit a! Eius fugiat necessitatibus praesentium. Officiis voluptatum dolorem quam aliquid.
+    Nobis iure assumenda numquam placeat fugiat tempore consequatur cum possimus, alias, repellat minima! Exercitationem accusantium earum minus quia perferendis nesciunt excepturi, quis, totam molestiae, alias voluptatem magnam placeat blanditiis fuga!
+    Dolore laudantium iste magnam asperiores pariatur facilis corporis dolor consectetur! Similique ut laboriosam nam dolore sed neque! Enim ex beatae ipsam? Culpa suscipit animi similique sint assumenda laborum voluptas non.
+    Distinctio, provident illo! Minima quos obcaecati quis iusto cum nulla minus, dignissimos illo adipisci exercitationem mollitia ea ipsa, esse explicabo eligendi doloribus suscipit blanditiis dolorem velit officiis eos labore. Aut?
+    Velit minus voluptas fugiat mollitia illo, suscipit saepe explicabo neque soluta veniam nihil doloremque architecto cum. Et voluptates, distinctio ut ad mollitia in eligendi quas, nihil cumque eveniet, hic tempore?
+    Ratione, eos aliquam! Possimus doloribus, ipsam voluptatem laboriosam provident numquam, ipsa dicta et saepe cum architecto autem cumque ipsum ratione est laudantium pariatur porro beatae accusamus vitae libero velit animi!
+    Dolorem commodi, ab nisi eaque neque debitis consequatur, cum iste, temporibus facere minima vel quas cumque vero? Porro, sequi nesciunt dolorem aliquam reiciendis incidunt, natus, perferendis eveniet odit ratione cupiditate?
+    Optio, eius laudantium. Voluptates nesciunt fugit quod adipisci aspernatur voluptatibus sed voluptatem et dolor, beatae ad. Minus voluptatibus repellendus itaque eos dolore fugit non! Tempore animi error delectus porro voluptatem.
+    Asperiores illum modi distinctio placeat saepe sed perspiciatis ut obcaecati ipsam architecto. Nemo incidunt soluta suscipit eum, accusantium provident perspiciatis at aliquid id harum assumenda velit quam unde eveniet dolorum!
+    Laboriosam vitae libero vero exercitationem! Minus minima mollitia quis quam, at sequi. Ratione, expedita sit voluptatem quibusdam doloremque vitae est aperiam rerum sint repudiandae iure, veritatis, dignissimos praesentium laboriosam facilis.
+    Optio doloribus commodi, adipisci aperiam dignissimos sapiente nostrum autem soluta, culpa illum ut dicta error enim est suscipit necessitatibus! Doloribus molestias aliquid vitae delectus, hic et aperiam recusandae excepturi animi?
+    Ea omnis temporibus eveniet natus veniam, adipisci esse blanditiis. Dolor magnam fuga, rerum libero totam voluptatibus reiciendis amet corrupti, hic natus repellat modi neque ab quasi illo in nam distinctio.
+    Perferendis maxime sint necessitatibus voluptatum unde placeat sed at porro, nesciunt suscipit animi possimus accusamus aliquam qui dignissimos in aperiam dolore ipsum voluptatibus adipisci laboriosam consequuntur corrupti? Error, quo ea?
+    Fugiat nostrum quis alias, iure perferendis, aliquam atque deleniti exercitationem veritatis excepturi laborum libero assumenda fuga? Dolorum, reiciendis. Omnis, temporibus quod. Dolores non magni voluptatem ullam provident, dolorum neque quam!
+    Nemo quia reprehenderit accusantium aut quod? Incidunt, ipsa aliquam quos animi quibusdam doloremque, ducimus quisquam maxime fugiat optio rem sint unde vitae labore, reiciendis aut natus minus inventore iste ipsum.
+    Adipisci minus illo sit perferendis. Illum eum odio perspiciatis quam? Illo quas, dolore numquam, natus totam deleniti soluta, nam ab voluptates neque ex. Consequuntur quia natus voluptatem maxime tenetur eum.
+    Beatae, similique quia! Ducimus, voluptates corporis? Error nobis sapiente earum mollitia culpa amet fugit adipisci illum autem accusantium. Fuga, quisquam! Odio officia ad ipsa odit cumque excepturi nostrum ex architecto!
+    Similique eius blanditiis qui nihil quidem alias atque vero architecto quo corrupti fugit minima iste illum modi, perspiciatis explicabo sapiente? Delectus, officia animi. Velit earum maiores nihil nam quos optio.
+    Nostrum quaerat ex, nulla in veniam at eveniet excepturi aperiam. A officiis, ab molestiae ipsum ratione, omnis repudiandae odio architecto perspiciatis magnam modi minima. Velit qui possimus laborum facere vel?
+    Ad optio quasi numquam aut at laudantium error? Officia soluta minus, laborum mollitia, error architecto maxime ea voluptate deserunt repellat similique. Laborum non ipsam aliquid asperiores sequi laudantium itaque commodi?
+    Quos quo eum, voluptates accusamus fugiat perferendis tempore quisquam reiciendis ullam animi rerum magni at consequuntur minus consequatur inventore veniam, est mollitia, fugit atque consectetur dolores vero quidem. Dolor, veritatis.
+    Eius sapiente nostrum autem quibusdam explicabo accusamus harum fugit ipsum id hic temporibus laboriosam repellat, perspiciatis similique nihil esse magnam voluptas veniam inventore nulla! Tenetur fugit quasi quae eaque perspiciatis.
+    Esse ea adipisci labore provident accusamus eius, qui voluptate corrupti amet quod. Minus ducimus neque obcaecati deleniti corrupti laborum asperiores dolore deserunt incidunt? Excepturi autem architecto est, suscipit molestias itaque?<ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum>
+    <ipsum class="lorem"></ipsum></p>
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
